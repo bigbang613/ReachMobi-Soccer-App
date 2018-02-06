@@ -1,0 +1,16 @@
+Index: app/src/main/java/com/vishwanath/reachmobi/SelectedTeamActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/vishwanath/reachmobi/SelectedTeamActivity.java	(revision )
++++ app/src/main/java/com/vishwanath/reachmobi/SelectedTeamActivity.java	(revision )
+@@ -107,7 +107,7 @@
+ 
+         @Override
+         protected void onPostExecute(JSONObject jsonObject) {
+-            super.onPostExecute(jsonObject);
++            //super.onPostExecute(jsonObject);
+ 
+             try {
+                 homeTeam.setText(jsonObject.getString("FIELD3"));
